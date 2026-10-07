@@ -1,0 +1,24 @@
+{
+  "benchmark": "offline_fake_workers",
+  "uses_llm_api": false,
+  "iterations": 20,
+  "latency_seconds": {
+    "min": 0.0030173000050126575,
+    "max": 0.009967899997718632,
+    "mean": 0.006744479998815223,
+    "median": 0.0069126500020502135,
+    "p50": 0.006913099998200778,
+    "p99": 0.009967899997718632
+  },
+  "throughput_requests_per_minute": 8893.849680850728,
+  "error_rate": 0.0,
+  "elapsed_seconds": 0.1349246999961906,
+  "cache_comparison": {
+    "cold_seconds": 0.006872099998872727,
+    "warm_seconds": 0.00010660000407369807,
+    "warm_cache_hit": true,
+    "worker_calls": 41,
+    "note": "Single repeated request with fake workers; timing is illustrative, not statistically significant."
+  },
+  "note": "Measures local orchestration and fake workers only; not provider/model latency."
+}
